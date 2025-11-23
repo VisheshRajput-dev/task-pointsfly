@@ -1,0 +1,199 @@
+const domainName = 'emirates.com';const scriptHost = 'https://www.emirates.com';const webChatStarted = 'webChatStarted';const props={"bundleType":"full","bundleVersion":"latest","bundleMinified":"min","country":"global","language":"english","channel":"SRP"};/**
+ * This script should be loaded in the head of the pillar
+ * List of query params and the corresponding default values
+ * @param {string} bundleType | full
+ * @param {string} bundleVersion | latest
+ * @param {string} bundleMinified | min
+ * @param {string} country | global
+ * @param {string} language | english
+ * @param {string} channel | ek
+ * @example
+ * http://<domain>/service/chat/widget?bundleType=full&country=ae&language=spanish&channel=ek&triggerMethod=OnDemandChat // For carbon pages
+ * http://<domain>/service/chat/js?bundleType=full&country=ae&language=spanish&channel=ek&triggerMethod=OnDemandChat // For classic pages
+ */
+
+const TRIGGER_METHODS = {
+  AUTO_TRIGGER: 'AutoTrigger',
+  ERROR: 'Error',
+  ON_DEMAND_CHAT: 'OnDemandChat',
+};
+
+const WEBCHAT_LOCAL_STORAGE_NAMES = [
+  '__EKWEBCHAT__USER_SESSION',
+  '__EKWEBCHAT__UI',
+  '__EKWEBCHAT__CONNECTIVITY',
+];
+
+const EVENTS_TO_RESET_IDLE_TIMEOUT = [
+  'mousedown',
+  'mousemove',
+  'keypress',
+  'scroll',
+  'touchstart',
+];
+
+const TIERS = {
+  VISITOR: 'visitor',
+  ALL: 'all',
+  BLUE: 'blue',
+};
+
+// eslint-disable-next-line no-undef
+const webchatCookieName = webChatStarted || 'webChatStarted';
+
+const autoOpenChatWidget = (
+  window?.__INITIAL_STATE__?.webChat?.enableAutoInvite ||
+  window?.__NEXT_DATA__?.props?.pageProps?.appState?.webChat?.enableAutoInvite || []
+).includes('Yes');
+
+function getCookie(cookieName) {
+  const cookie = {};
+  document.cookie.split(';').forEach(kvp => {
+    const [key, value] = kvp.split('=');
+    cookie[key.trim()] = value;
+  });
+  return cookie[cookieName];
+}
+
+// Get chat config wrt the skyward status of skyward user; tier is visitor for non-logged-in and BR users
+const tier = (
+  window?.__INITIAL_STATE__?.session?.brsrMember?.accounts ||
+  window?.__NEXT_DATA__?.props?.pageProps?.appState?.session?.brsrMember?.accounts || []
+).reduce((returnedValue, current) => {
+  const { option, status } = current;
+  if (option === 'Skywards') {
+    return status === 'SKYWARDS' ? TIERS.BLUE : status;
+  }
+  return returnedValue;
+}, TIERS.VISITOR);
+const chatConfig = (
+  window?.__INITIAL_STATE__?.webChat?.liveChatConfigurations ||
+  window?.__NEXT_DATA__?.props?.pageProps?.appState?.webChat?.liveChatConfigurations || []
+).find(eachConfig =>
+  (eachConfig.persona || []).find(
+    eachPersona =>
+      (eachPersona.taxonomyKey || '').toLowerCase() === tier.toLowerCase() ||
+      (eachPersona.taxonomyKey || '').toLowerCase() === TIERS.ALL
+  )
+);
+
+function isChatInProgress() {
+  return !!getCookie(webchatCookieName);
+}
+
+function doesWidgetExist() {
+  // Check if the widget is already created on page
+  return !!document.querySelector(
+    window.__EKWEBCHAT__?.env?.__RENDER_ELEMENT_ID__ || 'chat-widget'
+  );
+}
+
+function onScriptLoad() {
+  if (window?.__EKWEBCHAT_LOADED__ === true) return;
+  if (!window.__EKWEBCHAT__?.env?.__DIRECTLINE_TOKEN_ENDPOINT__) {
+    // eslint-disable-next-line no-console
+    console.error('No token url found!');
+    return;
+  }
+  const elementId =
+    window.__EKWEBCHAT__?.env?.__RENDER_ELEMENT_ID__ || 'chat-widget';
+  let element = document.getElementById(elementId);
+  if (!element) {
+    element = document.createElement('div');
+    element.setAttribute('id', elementId);
+    document.body.appendChild(element);
+  }
+  window.EKWEBCHAT.render(element, {
+    tokenUrl: window.__EKWEBCHAT__.env.__DIRECTLINE_TOKEN_ENDPOINT__,
+  });
+  window.__EKWEBCHAT_LOADED__ = true;
+}
+
+function getTriggerMethod(chatData) {
+  switch (true) {
+    case (chatData?.triggeredReason || '').toLowerCase().includes('error'):
+      return TRIGGER_METHODS.ERROR;
+    case autoOpenChatWidget:
+    case (chatData?.triggeredReason || '').toLowerCase().includes('idle'):
+      return TRIGGER_METHODS.AUTO_TRIGGER;
+    default:
+      return TRIGGER_METHODS.ON_DEMAND_CHAT;
+  }
+}
+
+function removeLocalStorageItems(items) {
+  items.forEach(item => localStorage.removeItem(item));
+}
+
+// Carbon and classic pages may send a param.
+// { triggerType, triggeredReason } is sent by carbon pages.
+// td is sent by classic pages but is not required as we pick it up from the window object.
+function openChatButton(chatData) {
+  // Adding the chat widget script in the head of the pillar
+  // eslint-disable-next-line no-undef
+  const { bundleType, bundleVersion, bundleMinified, country, language, channel } = props;
+  // Trigger method 'Error' can be identified at CE by decrypting window.td
+  const triggerMethod = getTriggerMethod(chatData);
+  if (
+    !isChatInProgress() &&
+    (triggerMethod === TRIGGER_METHODS.ERROR ||
+      triggerMethod === TRIGGER_METHODS.ON_DEMAND_CHAT)
+  ) {
+    removeLocalStorageItems(WEBCHAT_LOCAL_STORAGE_NAMES);
+  }
+  const { td } = window;
+  const webPageID = chatConfig?.channel?.taxonomyKey;
+  const webPageOrigin = window?.__INITIAL_STATE__?.webChat?.origin ||
+  window?.__NEXT_DATA__?.props?.pageProps?.appState?.webChat?.origin;
+  const script = document.createElement('script');
+  // eslint-disable-next-line no-undef
+  script.src = `${scriptHost ||
+    window.location
+      .origin}/service/chat/bundles/emirates-webchat-widget.${bundleType}.${bundleVersion}${bundleMinified ? `.${bundleMinified}` : ''
+  }.js?country=${country}&language=${language}&channel=${channel}${isChatInProgress() ? '' : `&triggerMethod=${triggerMethod}`
+  }&${td ? `cdata=${td}` : `webPageID=${webPageID}&webPageOrigin=${webPageOrigin}`}`;
+  script.onload = onScriptLoad;
+  if (document.querySelectorAll(`script[src="${decodeURI(script.src)}"]`).length === 0) {
+    document.head.appendChild(script);
+  }
+}
+
+window.openChatButton = openChatButton;
+
+function initiateInactivityCheck() {
+  let timeout;
+  const waitTime = Number(chatConfig?.waitTime) || 0; // Wait time given in the desired liveChatConfigurations
+
+  // Clear previous timeout and create new timeout every time a user prevents inactivity
+  const resetTimeout = () => {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+      if (!isChatInProgress() && !doesWidgetExist()) {
+        openChatButton({
+          triggerType: 'System',
+          triggeredReason: 'Idle on page',
+        });
+      }
+      // Remove event listeners and clear timeout because inactivity check is no longer needed
+      EVENTS_TO_RESET_IDLE_TIMEOUT.forEach(event => {
+        document.removeEventListener(event, resetTimeout);
+      });
+      clearTimeout(timeout);
+    }, waitTime * 1000);
+  };
+
+  resetTimeout();
+  // Add timeout event listener to events which signal activity on a screen
+  EVENTS_TO_RESET_IDLE_TIMEOUT.forEach(event => {
+    document.addEventListener(event, resetTimeout, true);
+  });
+}
+
+// Check if the inactivity needs to be checked on this page
+if (!doesWidgetExist() && (chatConfig?.isWait || ['No']).includes('Yes')) {
+  initiateInactivityCheck();
+}
+
+if (!doesWidgetExist() && (autoOpenChatWidget || isChatInProgress())) {
+  openChatButton();
+}

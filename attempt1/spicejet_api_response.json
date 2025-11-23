@@ -1,0 +1,2601 @@
+{
+  "data": {
+    "trips": [
+      {
+        "origin": "DEL",
+        "destination": "BOM",
+        "journeysAvailable": [
+          {
+            "flightType": 1,
+            "stops": 0,
+            "designator": {
+              "destination": "BOM",
+              "origin": "DEL",
+              "arrival": "2025-11-24T22:50:00",
+              "departure": "2025-11-24T20:30:00",
+              "originFullName": "Delhi",
+              "destinationFullName": "Mumbai"
+            },
+            "fares": {
+              "MH5IfiB_U0d_SFNBVn41NTExfn4wfjI5OH5_WCEwOjgxNTA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDE4": {
+                "fareAvailabilityKey": "MH5IfiB_U0d_SFNBVn41NTExfn4wfjI5OH5_WCEwOjgxNTA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDE4",
+                "fareCode": "HSAV",
+                "availableCount": 1,
+                "isSumOfSector": false,
+                "classOfService": "H"
+              },
+              "MH5IfiB_U0d_SFNNRn41NTI3fn4wfjI2Mn5_WCEwOjg2NTA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDQy": {
+                "fareAvailabilityKey": "MH5IfiB_U0d_SFNNRn41NTI3fn4wfjI2Mn5_WCEwOjg2NTA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDQy",
+                "fareCode": "HSMF",
+                "availableCount": 1,
+                "isSumOfSector": false,
+                "classOfService": "H"
+              },
+              "MH5IfiB_U0d_SFNNWH41NTE3fn4wfjMxMX5_WCEwOjk0MDA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDgw": {
+                "fareAvailabilityKey": "MH5IfiB_U0d_SFNNWH41NTE3fn4wfjMxMX5_WCEwOjk0MDA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDgw",
+                "fareCode": "HSMX",
+                "availableCount": 1,
+                "isSumOfSector": false,
+                "classOfService": "H"
+              },
+              "MH5IfiB_U0d_SE1YQ341NTE3fn4wfjMyNX5_WCEwOjExMjM4NDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjU3Mg--": {
+                "fareAvailabilityKey": "MH5IfiB_U0d_SE1YQ341NTE3fn4wfjMyNX5_WCEwOjExMjM4NDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjU3Mg--",
+                "fareCode": "HMXC",
+                "availableCount": 1,
+                "isSumOfSector": false,
+                "classOfService": "H"
+              }
+            },
+            "journeyKey": "U0d_IDEwNX4gfn5ERUx_MTEvMjQvMjAyNSAyMDozMH5CT01_MTEvMjQvMjAyNSAyMjo1MH5_",
+            "segments": [
+              {
+                "isBlocked": false,
+                "isHosted": true,
+                "isChangeOfGauge": false,
+                "designator": {
+                  "destination": "BOM",
+                  "origin": "DEL",
+                  "arrival": "2025-11-24T22:50:00",
+                  "departure": "2025-11-24T20:30:00",
+                  "originFullName": "Delhi",
+                  "destinationFullName": "Mumbai"
+                },
+                "isSeatmapViewable": true,
+                "segmentKey": "U0d_IDEwNX4gfn5ERUx_MTEvMjQvMjAyNSAyMDozMH5CT01_MTEvMjQvMjAyNSAyMjo1MH5_",
+                "identifier": {
+                  "identifier": "105",
+                  "carrierCode": "SG",
+                  "opSuffix": null
+                },
+                "cabinOfService": null,
+                "externalIdentifier": null,
+                "changeReasonCode": 0,
+                "segmentType": 0,
+                "international": false,
+                "legs": [
+                  {
+                    "legKey": "NjM4OTk2MTMwMDAwMDAwMDAwIVNHITEwNSEgIURFTCFCT00hMTA3MTkwMDAzNA--",
+                    "operationsInfo": {
+                      "arrivalGate": {
+                        "estimatedGate": null,
+                        "actualGate": null
+                      },
+                      "estimatedArrivalTime": null,
+                      "departureGate": {
+                        "estimatedGate": null,
+                        "actualGate": null
+                      },
+                      "actualOffBlockTime": null,
+                      "actualOnBlockTime": null,
+                      "actualTouchDownTime": null,
+                      "airborneTime": null,
+                      "arrivalNote": null,
+                      "arrivalStatus": 0,
+                      "baggageClaim": null,
+                      "departureNote": null,
+                      "departureStatus": 0,
+                      "departureTimes": {
+                        "scheduled": "2025-11-24T20:30:00",
+                        "estimated": null
+                      },
+                      "standardArrivalTime": "2025-11-24T22:50:00",
+                      "tailNumber": null
+                    },
+                    "designator": {
+                      "destination": "BOM",
+                      "origin": "DEL",
+                      "arrival": "2025-11-24T22:50:00",
+                      "departure": "2025-11-24T20:30:00",
+                      "originFullName": "Delhi",
+                      "destinationFullName": "Mumbai"
+                    },
+                    "legInfo": {
+                      "departureTimeUtc": "2025-11-24T15:00:00Z",
+                      "arrivalTimeUtc": "2025-11-24T17:20:00Z",
+                      "adjustedCapacity": 189,
+                      "arrivalTerminal": "T-1",
+                      "arrivalTimeVariant": 330,
+                      "backMoveDays": 0,
+                      "capacity": 189,
+                      "changeOfDirection": false,
+                      "codeShareIndicator": 0,
+                      "departureTerminal": "T-1D",
+                      "departureTimeVariant": 330,
+                      "equipmentType": "73H",
+                      "equipmentTypeSuffix": "F4A",
+                      "eTicket": true,
+                      "irop": false,
+                      "lid": 193,
+                      "marketingCode": null,
+                      "marketingOverride": false,
+                      "onTime": null,
+                      "operatedByText": null,
+                      "operatingCarrier": null,
+                      "operatingFlightNumber": null,
+                      "operatingOpSuffix": null,
+                      "outMoveDays": 0,
+                      "arrivalTime": "2025-11-24T22:50:00",
+                      "departureTime": "2025-11-24T20:30:00",
+                      "prbcCode": "73HF4A",
+                      "scheduleServiceType": "J",
+                      "sold": 172,
+                      "status": 0,
+                      "subjectToGovtApproval": false
+                    },
+                    "nests": [],
+                    "ssrs": [
+                      {
+                        "available": 8,
+                        "ssrNestCode": "DFNS",
+                        "lid": 10,
+                        "sold": 2,
+                        "unitSold": 2
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "HCPF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 8,
+                        "ssrNestCode": "SNST",
+                        "lid": 10,
+                        "sold": 2,
+                        "unitSold": 2
+                      },
+                      {
+                        "available": 4,
+                        "ssrNestCode": "STUD",
+                        "lid": 10,
+                        "sold": 6,
+                        "unitSold": 6
+                      },
+                      {
+                        "available": 4,
+                        "ssrNestCode": "UNMR",
+                        "lid": 4,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "WMSF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      }
+                    ],
+                    "seatmapReference": "U0chIDEwNSEgITYzODk5NjEzMDAwMDAwMDAwMCFERUwhQk9N",
+                    "flightReference": null,
+                    "viaInfo": {},
+                    "flightDuration": "2h 20m",
+                    "arrivalTime": "22:50",
+                    "departureTime": "20:30",
+                    "arrivalDateDifference": 0,
+                    "carrierString": "SG 105",
+                    "departureDateString": "Mon, 24 Nov",
+                    "arrivalDateString": "Mon, 24 Nov"
+                  }
+                ],
+                "stopInfo": {},
+                "flightDuration": "2h 20m",
+                "arrivalTime": "22:50",
+                "arrivalDateDifference": 0,
+                "departureTime": "20:30",
+                "carrierString": "SG 105",
+                "departureDateString": "Mon, 24 Nov",
+                "arrivalDateString": "Mon, 24 Nov"
+              }
+            ],
+            "notForGeneralUser": false,
+            "carrierString": "SG 105",
+            "departureTime": "20:30",
+            "arrivalDateDifference": 0,
+            "arrivalTime": "22:50",
+            "flightDuration": "2h 20m",
+            "departureDateString": "Mon, 24 Nov",
+            "arrivalDateString": "Mon, 24 Nov",
+            "isInternational": false
+          },
+          {
+            "flightType": 1,
+            "stops": 0,
+            "designator": {
+              "destination": "BOM",
+              "origin": "DEL",
+              "arrival": "2025-11-24T17:50:00",
+              "departure": "2025-11-24T15:40:00",
+              "originFullName": "Delhi",
+              "destinationFullName": "Mumbai"
+            },
+            "fares": {
+              "MH5KfiB_U0d_SlNBVn41NTExfn4wfjI5N35_WCEwOjg4MDA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDUw": {
+                "fareAvailabilityKey": "MH5KfiB_U0d_SlNBVn41NTExfn4wfjI5N35_WCEwOjg4MDA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDUw",
+                "fareCode": "JSAV",
+                "availableCount": 1,
+                "isSumOfSector": false,
+                "classOfService": "J"
+              },
+              "MH5KfiB_U0d_SlNNRn41NTI3fn4wfjI2MX5_WCEwOjkzMDA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDc2": {
+                "fareAvailabilityKey": "MH5KfiB_U0d_SlNNRn41NTI3fn4wfjI2MX5_WCEwOjkzMDA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDc2",
+                "fareCode": "JSMF",
+                "availableCount": 1,
+                "isSumOfSector": false,
+                "classOfService": "J"
+              },
+              "MH5KfiB_U0d_SlNNWH41NTE3fn4wfjMwNn5_WCEwOjEwMDUwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjUxMg--": {
+                "fareAvailabilityKey": "MH5KfiB_U0d_SlNNWH41NTE3fn4wfjMwNn5_WCEwOjEwMDUwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjUxMg--",
+                "fareCode": "JSMX",
+                "availableCount": 1,
+                "isSumOfSector": false,
+                "classOfService": "J"
+              },
+              "MH5KfiB_U0d_Sk1YQ341NTE3fn4wfjMzMH5_WCEwOjEyMDUwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjYxMg--": {
+                "fareAvailabilityKey": "MH5KfiB_U0d_Sk1YQ341NTE3fn4wfjMzMH5_WCEwOjEyMDUwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjYxMg--",
+                "fareCode": "JMXC",
+                "availableCount": 1,
+                "isSumOfSector": false,
+                "classOfService": "J"
+              }
+            },
+            "journeyKey": "U0d_IDY2NH4gfn5ERUx_MTEvMjQvMjAyNSAxNTo0MH5CT01_MTEvMjQvMjAyNSAxNzo1MH5_",
+            "segments": [
+              {
+                "isBlocked": false,
+                "isHosted": true,
+                "isChangeOfGauge": false,
+                "designator": {
+                  "destination": "BOM",
+                  "origin": "DEL",
+                  "arrival": "2025-11-24T17:50:00",
+                  "departure": "2025-11-24T15:40:00",
+                  "originFullName": "Delhi",
+                  "destinationFullName": "Mumbai"
+                },
+                "isSeatmapViewable": true,
+                "segmentKey": "U0d_IDY2NH4gfn5ERUx_MTEvMjQvMjAyNSAxNTo0MH5CT01_MTEvMjQvMjAyNSAxNzo1MH5_",
+                "identifier": {
+                  "identifier": "664",
+                  "carrierCode": "SG",
+                  "opSuffix": null
+                },
+                "cabinOfService": null,
+                "externalIdentifier": null,
+                "changeReasonCode": 0,
+                "segmentType": 0,
+                "international": false,
+                "legs": [
+                  {
+                    "legKey": "NjM4OTk1OTU2MDAwMDAwMDAwIVNHITY2NCEgIURFTCFCT00hMTA3MDkwMDI4NA--",
+                    "operationsInfo": {
+                      "arrivalGate": {
+                        "estimatedGate": null,
+                        "actualGate": null
+                      },
+                      "estimatedArrivalTime": null,
+                      "departureGate": {
+                        "estimatedGate": null,
+                        "actualGate": null
+                      },
+                      "actualOffBlockTime": null,
+                      "actualOnBlockTime": null,
+                      "actualTouchDownTime": null,
+                      "airborneTime": null,
+                      "arrivalNote": null,
+                      "arrivalStatus": 0,
+                      "baggageClaim": null,
+                      "departureNote": null,
+                      "departureStatus": 0,
+                      "departureTimes": {
+                        "scheduled": "2025-11-24T15:40:00",
+                        "estimated": null
+                      },
+                      "standardArrivalTime": "2025-11-24T17:50:00",
+                      "tailNumber": null
+                    },
+                    "designator": {
+                      "destination": "BOM",
+                      "origin": "DEL",
+                      "arrival": "2025-11-24T17:50:00",
+                      "departure": "2025-11-24T15:40:00",
+                      "originFullName": "Delhi",
+                      "destinationFullName": "Mumbai"
+                    },
+                    "legInfo": {
+                      "departureTimeUtc": "2025-11-24T10:10:00Z",
+                      "arrivalTimeUtc": "2025-11-24T12:20:00Z",
+                      "adjustedCapacity": 189,
+                      "arrivalTerminal": "T-1",
+                      "arrivalTimeVariant": 330,
+                      "backMoveDays": 0,
+                      "capacity": 189,
+                      "changeOfDirection": false,
+                      "codeShareIndicator": 0,
+                      "departureTerminal": "T-1D",
+                      "departureTimeVariant": 330,
+                      "equipmentType": "73H",
+                      "equipmentTypeSuffix": "A01",
+                      "eTicket": true,
+                      "irop": false,
+                      "lid": 193,
+                      "marketingCode": null,
+                      "marketingOverride": false,
+                      "onTime": null,
+                      "operatedByText": null,
+                      "operatingCarrier": null,
+                      "operatingFlightNumber": null,
+                      "operatingOpSuffix": null,
+                      "outMoveDays": 0,
+                      "arrivalTime": "2025-11-24T17:50:00",
+                      "departureTime": "2025-11-24T15:40:00",
+                      "prbcCode": "737A01",
+                      "scheduleServiceType": "J",
+                      "sold": 183,
+                      "status": 0,
+                      "subjectToGovtApproval": false
+                    },
+                    "nests": [],
+                    "ssrs": [
+                      {
+                        "available": 6,
+                        "ssrNestCode": "DFNS",
+                        "lid": 10,
+                        "sold": 4,
+                        "unitSold": 4
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "HCPF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 8,
+                        "ssrNestCode": "SNST",
+                        "lid": 10,
+                        "sold": 2,
+                        "unitSold": 2
+                      },
+                      {
+                        "available": 8,
+                        "ssrNestCode": "STUD",
+                        "lid": 10,
+                        "sold": 2,
+                        "unitSold": 2
+                      },
+                      {
+                        "available": 4,
+                        "ssrNestCode": "UNMR",
+                        "lid": 4,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "WMSF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      }
+                    ],
+                    "seatmapReference": "U0chIDY2NCEgITYzODk5NTk1NjAwMDAwMDAwMCFERUwhQk9N",
+                    "flightReference": null,
+                    "viaInfo": {},
+                    "flightDuration": "2h 10m",
+                    "arrivalTime": "17:50",
+                    "departureTime": "15:40",
+                    "arrivalDateDifference": 0,
+                    "carrierString": "SG 664",
+                    "departureDateString": "Mon, 24 Nov",
+                    "arrivalDateString": "Mon, 24 Nov"
+                  }
+                ],
+                "stopInfo": {},
+                "flightDuration": "2h 10m",
+                "arrivalTime": "17:50",
+                "arrivalDateDifference": 0,
+                "departureTime": "15:40",
+                "carrierString": "SG 664",
+                "departureDateString": "Mon, 24 Nov",
+                "arrivalDateString": "Mon, 24 Nov"
+              }
+            ],
+            "notForGeneralUser": false,
+            "carrierString": "SG 664",
+            "departureTime": "15:40",
+            "arrivalDateDifference": 0,
+            "arrivalTime": "17:50",
+            "flightDuration": "2h 10m",
+            "departureDateString": "Mon, 24 Nov",
+            "arrivalDateString": "Mon, 24 Nov",
+            "isInternational": false
+          },
+          {
+            "flightType": 1,
+            "stops": 0,
+            "designator": {
+              "destination": "BOM",
+              "origin": "DEL",
+              "arrival": "2025-11-24T08:35:00",
+              "departure": "2025-11-24T06:30:00",
+              "originFullName": "Delhi",
+              "destinationFullName": "Mumbai"
+            },
+            "fares": {
+              "MH5NfiB_U0d_TVNBVn41NTExfn4wfjI5NX5_WCEwOjExMzAwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjU3Ng--": {
+                "fareAvailabilityKey": "MH5NfiB_U0d_TVNBVn41NTExfn4wfjI5NX5_WCEwOjExMzAwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjU3Ng--",
+                "fareCode": "MSAV",
+                "availableCount": 1,
+                "isSumOfSector": false,
+                "classOfService": "M"
+              },
+              "MH5NfiB_U0d_TVNNRn41NTI3fn4wfjI2MX5_WCEwOjExODAwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjYwMA--": {
+                "fareAvailabilityKey": "MH5NfiB_U0d_TVNNRn41NTI3fn4wfjI2MX5_WCEwOjExODAwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjYwMA--",
+                "fareCode": "MSMF",
+                "availableCount": 1,
+                "isSumOfSector": false,
+                "classOfService": "M"
+              },
+              "MH5NfiB_U0d_TVNNWH41NTE3fn4wfjMwNH5_WCEwOjEyNTUwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjYzOA--": {
+                "fareAvailabilityKey": "MH5NfiB_U0d_TVNNWH41NTE3fn4wfjMwNH5_WCEwOjEyNTUwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjYzOA--",
+                "fareCode": "MSMX",
+                "availableCount": 1,
+                "isSumOfSector": false,
+                "classOfService": "M"
+              },
+              "MH5NfiB_U0d_TU1YQ341NTE3fn4wfjMyMn5_WCEwOjE1MTc1NDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1Ojc2OA--": {
+                "fareAvailabilityKey": "MH5NfiB_U0d_TU1YQ341NTE3fn4wfjMyMn5_WCEwOjE1MTc1NDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1Ojc2OA--",
+                "fareCode": "MMXC",
+                "availableCount": 1,
+                "isSumOfSector": false,
+                "classOfService": "M"
+              }
+            },
+            "journeyKey": "U0d_IDM4NX4gfn5ERUx_MTEvMjQvMjAyNSAwNjozMH5CT01_MTEvMjQvMjAyNSAwODozNX5_",
+            "segments": [
+              {
+                "isBlocked": false,
+                "isHosted": true,
+                "isChangeOfGauge": false,
+                "designator": {
+                  "destination": "BOM",
+                  "origin": "DEL",
+                  "arrival": "2025-11-24T08:35:00",
+                  "departure": "2025-11-24T06:30:00",
+                  "originFullName": "Delhi",
+                  "destinationFullName": "Mumbai"
+                },
+                "isSeatmapViewable": true,
+                "segmentKey": "U0d_IDM4NX4gfn5ERUx_MTEvMjQvMjAyNSAwNjozMH5CT01_MTEvMjQvMjAyNSAwODozNX5_",
+                "identifier": {
+                  "identifier": "385",
+                  "carrierCode": "SG",
+                  "opSuffix": null
+                },
+                "cabinOfService": null,
+                "externalIdentifier": null,
+                "changeReasonCode": 0,
+                "segmentType": 0,
+                "international": false,
+                "legs": [
+                  {
+                    "legKey": "NjM4OTk1NjI2MDAwMDAwMDAwIVNHITM4NSEgIURFTCFCT00hNzU1OTA0NzU4",
+                    "operationsInfo": {
+                      "arrivalGate": {
+                        "estimatedGate": null,
+                        "actualGate": null
+                      },
+                      "estimatedArrivalTime": "2025-11-24T08:20:00",
+                      "departureGate": {
+                        "estimatedGate": null,
+                        "actualGate": null
+                      },
+                      "actualOffBlockTime": null,
+                      "actualOnBlockTime": null,
+                      "actualTouchDownTime": null,
+                      "airborneTime": null,
+                      "arrivalNote": null,
+                      "arrivalStatus": 3,
+                      "baggageClaim": null,
+                      "departureNote": null,
+                      "departureStatus": 3,
+                      "departureTimes": {
+                        "scheduled": "2025-11-24T06:30:00",
+                        "estimated": "2025-11-24T06:15:00"
+                      },
+                      "standardArrivalTime": "2025-11-24T08:35:00",
+                      "tailNumber": null
+                    },
+                    "designator": {
+                      "destination": "BOM",
+                      "origin": "DEL",
+                      "arrival": "2025-11-24T08:35:00",
+                      "departure": "2025-11-24T06:30:00",
+                      "originFullName": "Delhi",
+                      "destinationFullName": "Mumbai"
+                    },
+                    "legInfo": {
+                      "departureTimeUtc": "2025-11-24T01:00:00Z",
+                      "arrivalTimeUtc": "2025-11-24T03:05:00Z",
+                      "adjustedCapacity": 189,
+                      "arrivalTerminal": "T-1",
+                      "arrivalTimeVariant": 330,
+                      "backMoveDays": 0,
+                      "capacity": 189,
+                      "changeOfDirection": false,
+                      "codeShareIndicator": 0,
+                      "departureTerminal": "T-1D",
+                      "departureTimeVariant": 330,
+                      "equipmentType": "73H",
+                      "equipmentTypeSuffix": "A01",
+                      "eTicket": true,
+                      "irop": false,
+                      "lid": 193,
+                      "marketingCode": null,
+                      "marketingOverride": false,
+                      "onTime": null,
+                      "operatedByText": null,
+                      "operatingCarrier": null,
+                      "operatingFlightNumber": null,
+                      "operatingOpSuffix": null,
+                      "outMoveDays": 0,
+                      "arrivalTime": "2025-11-24T08:35:00",
+                      "departureTime": "2025-11-24T06:30:00",
+                      "prbcCode": "737A01",
+                      "scheduleServiceType": "J",
+                      "sold": 188,
+                      "status": 0,
+                      "subjectToGovtApproval": false
+                    },
+                    "nests": [],
+                    "ssrs": [
+                      {
+                        "available": 10,
+                        "ssrNestCode": "DFNS",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "HCPF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "SNST",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 8,
+                        "ssrNestCode": "STUD",
+                        "lid": 10,
+                        "sold": 2,
+                        "unitSold": 2
+                      },
+                      {
+                        "available": 4,
+                        "ssrNestCode": "UNMR",
+                        "lid": 4,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "WMSF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      }
+                    ],
+                    "seatmapReference": "U0chIDM4NSEgITYzODk5NTYyNjAwMDAwMDAwMCFERUwhQk9N",
+                    "flightReference": null,
+                    "viaInfo": {},
+                    "flightDuration": "2h 5m",
+                    "arrivalTime": "08:35",
+                    "departureTime": "06:30",
+                    "arrivalDateDifference": 0,
+                    "carrierString": "SG 385",
+                    "departureDateString": "Mon, 24 Nov",
+                    "arrivalDateString": "Mon, 24 Nov"
+                  }
+                ],
+                "stopInfo": {},
+                "flightDuration": "2h 5m",
+                "arrivalTime": "08:35",
+                "arrivalDateDifference": 0,
+                "departureTime": "06:30",
+                "carrierString": "SG 385",
+                "departureDateString": "Mon, 24 Nov",
+                "arrivalDateString": "Mon, 24 Nov"
+              }
+            ],
+            "notForGeneralUser": false,
+            "carrierString": "SG 385",
+            "departureTime": "06:30",
+            "arrivalDateDifference": 0,
+            "arrivalTime": "08:35",
+            "flightDuration": "2h 5m",
+            "departureDateString": "Mon, 24 Nov",
+            "arrivalDateString": "Mon, 24 Nov",
+            "isInternational": false
+          }
+        ],
+        "destinationFullName": "Mumbai",
+        "originFullName": "Delhi",
+        "departureDateStringWithYear": "Mon, 24 Nov 2025"
+      }
+    ],
+    "faresAvailable": {
+      "MH5IfiB_U0d_SFNBVn41NTExfn4wfjI5OH5_WCEwOjgxNTA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDE4": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MH5IfiB_U0d_SFNBVn41NTExfn4wfjI5OH5_WCEwOjgxNTA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDE4",
+        "fareCode": "HSAV",
+        "isSumOfSector": false,
+        "classOfService": "H",
+        "classType": null,
+        "fareApplicationType": 0,
+        "fareClassOfService": "H",
+        "fareSequence": 298,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "RS",
+        "ruleNumber": "5511",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 9230,
+            "revenueFare": 8150,
+            "publishedFare": 8150,
+            "loyaltyPoints": 0,
+            "discountedFare": 8150,
+            "serviceCharges": [
+              {
+                "amount": 8150,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 8150,
+                "ticketCode": null
+              },
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 418,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 418,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MH5IfiB_U0d_SFNNRn41NTI3fn4wfjI2Mn5_WCEwOjg2NTA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDQy": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MH5IfiB_U0d_SFNNRn41NTI3fn4wfjI2Mn5_WCEwOjg2NTA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDQy",
+        "fareCode": "HSMF",
+        "isSumOfSector": false,
+        "classOfService": "H",
+        "classType": null,
+        "fareApplicationType": 0,
+        "fareClassOfService": "H",
+        "fareSequence": 262,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "SF",
+        "ruleNumber": "5527",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 9754,
+            "revenueFare": 8650,
+            "publishedFare": 8650,
+            "loyaltyPoints": 0,
+            "discountedFare": 8650,
+            "serviceCharges": [
+              {
+                "amount": 8650,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 8650,
+                "ticketCode": null
+              },
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 442,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 442,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MH5IfiB_U0d_SFNNWH41NTE3fn4wfjMxMX5_WCEwOjk0MDA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDgw": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MH5IfiB_U0d_SFNNWH41NTE3fn4wfjMxMX5_WCEwOjk0MDA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDgw",
+        "fareCode": "HSMX",
+        "isSumOfSector": false,
+        "classOfService": "H",
+        "classType": null,
+        "fareApplicationType": 0,
+        "fareClassOfService": "H",
+        "fareSequence": 311,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "SC",
+        "ruleNumber": "5517",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 10542,
+            "revenueFare": 9400,
+            "publishedFare": 9400,
+            "loyaltyPoints": 0,
+            "discountedFare": 9400,
+            "serviceCharges": [
+              {
+                "amount": 9400,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 9400,
+                "ticketCode": null
+              },
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 480,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 480,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MH5IfiB_U0d_SE1YQ341NTE3fn4wfjMyNX5_WCEwOjExMjM4NDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjU3Mg--": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MH5IfiB_U0d_SE1YQ341NTE3fn4wfjMyNX5_WCEwOjExMjM4NDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjU3Mg--",
+        "fareCode": "HMXC",
+        "isSumOfSector": false,
+        "classOfService": "H",
+        "classType": null,
+        "fareApplicationType": 0,
+        "fareClassOfService": "H",
+        "fareSequence": 325,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "MC",
+        "ruleNumber": "5517",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 12472,
+            "revenueFare": 11238,
+            "publishedFare": 11238,
+            "loyaltyPoints": 0,
+            "discountedFare": 11238,
+            "serviceCharges": [
+              {
+                "amount": 11238,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 11238,
+                "ticketCode": null
+              },
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 572,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 572,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MH5KfiB_U0d_SlNBVn41NTExfn4wfjI5N35_WCEwOjg4MDA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDUw": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MH5KfiB_U0d_SlNBVn41NTExfn4wfjI5N35_WCEwOjg4MDA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDUw",
+        "fareCode": "JSAV",
+        "isSumOfSector": false,
+        "classOfService": "J",
+        "classType": null,
+        "fareApplicationType": 0,
+        "fareClassOfService": "J",
+        "fareSequence": 297,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "RS",
+        "ruleNumber": "5511",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 9912,
+            "revenueFare": 8800,
+            "publishedFare": 8800,
+            "loyaltyPoints": 0,
+            "discountedFare": 8800,
+            "serviceCharges": [
+              {
+                "amount": 8800,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 8800,
+                "ticketCode": null
+              },
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 450,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 450,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MH5KfiB_U0d_SlNNRn41NTI3fn4wfjI2MX5_WCEwOjkzMDA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDc2": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MH5KfiB_U0d_SlNNRn41NTI3fn4wfjI2MX5_WCEwOjkzMDA0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6NDc2",
+        "fareCode": "JSMF",
+        "isSumOfSector": false,
+        "classOfService": "J",
+        "classType": null,
+        "fareApplicationType": 0,
+        "fareClassOfService": "J",
+        "fareSequence": 261,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "SF",
+        "ruleNumber": "5527",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 10438,
+            "revenueFare": 9300,
+            "publishedFare": 9300,
+            "loyaltyPoints": 0,
+            "discountedFare": 9300,
+            "serviceCharges": [
+              {
+                "amount": 9300,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 9300,
+                "ticketCode": null
+              },
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 476,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 476,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MH5KfiB_U0d_SlNNWH41NTE3fn4wfjMwNn5_WCEwOjEwMDUwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjUxMg--": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MH5KfiB_U0d_SlNNWH41NTE3fn4wfjMwNn5_WCEwOjEwMDUwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjUxMg--",
+        "fareCode": "JSMX",
+        "isSumOfSector": false,
+        "classOfService": "J",
+        "classType": null,
+        "fareApplicationType": 0,
+        "fareClassOfService": "J",
+        "fareSequence": 306,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "SC",
+        "ruleNumber": "5517",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 11224,
+            "revenueFare": 10050,
+            "publishedFare": 10050,
+            "loyaltyPoints": 0,
+            "discountedFare": 10050,
+            "serviceCharges": [
+              {
+                "amount": 10050,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 10050,
+                "ticketCode": null
+              },
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 512,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 512,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MH5KfiB_U0d_Sk1YQ341NTE3fn4wfjMzMH5_WCEwOjEyMDUwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjYxMg--": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MH5KfiB_U0d_Sk1YQ341NTE3fn4wfjMzMH5_WCEwOjEyMDUwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjYxMg--",
+        "fareCode": "JMXC",
+        "isSumOfSector": false,
+        "classOfService": "J",
+        "classType": null,
+        "fareApplicationType": 0,
+        "fareClassOfService": "J",
+        "fareSequence": 330,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "MC",
+        "ruleNumber": "5517",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 13324,
+            "revenueFare": 12050,
+            "publishedFare": 12050,
+            "loyaltyPoints": 0,
+            "discountedFare": 12050,
+            "serviceCharges": [
+              {
+                "amount": 12050,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 12050,
+                "ticketCode": null
+              },
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 612,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 612,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MH5NfiB_U0d_TVNBVn41NTExfn4wfjI5NX5_WCEwOjExMzAwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjU3Ng--": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MH5NfiB_U0d_TVNBVn41NTExfn4wfjI5NX5_WCEwOjExMzAwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjU3Ng--",
+        "fareCode": "MSAV",
+        "isSumOfSector": false,
+        "classOfService": "M",
+        "classType": null,
+        "fareApplicationType": 0,
+        "fareClassOfService": "M",
+        "fareSequence": 295,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "RS",
+        "ruleNumber": "5511",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 12538,
+            "revenueFare": 11300,
+            "publishedFare": 11300,
+            "loyaltyPoints": 0,
+            "discountedFare": 11300,
+            "serviceCharges": [
+              {
+                "amount": 11300,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 11300,
+                "ticketCode": null
+              },
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 576,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 576,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MH5NfiB_U0d_TVNNRn41NTI3fn4wfjI2MX5_WCEwOjExODAwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjYwMA--": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MH5NfiB_U0d_TVNNRn41NTI3fn4wfjI2MX5_WCEwOjExODAwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjYwMA--",
+        "fareCode": "MSMF",
+        "isSumOfSector": false,
+        "classOfService": "M",
+        "classType": null,
+        "fareApplicationType": 0,
+        "fareClassOfService": "M",
+        "fareSequence": 261,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "SF",
+        "ruleNumber": "5527",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 13062,
+            "revenueFare": 11800,
+            "publishedFare": 11800,
+            "loyaltyPoints": 0,
+            "discountedFare": 11800,
+            "serviceCharges": [
+              {
+                "amount": 11800,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 11800,
+                "ticketCode": null
+              },
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 600,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 600,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MH5NfiB_U0d_TVNNWH41NTE3fn4wfjMwNH5_WCEwOjEyNTUwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjYzOA--": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MH5NfiB_U0d_TVNNWH41NTE3fn4wfjMwNH5_WCEwOjEyNTUwNDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1OjYzOA--",
+        "fareCode": "MSMX",
+        "isSumOfSector": false,
+        "classOfService": "M",
+        "classType": null,
+        "fareApplicationType": 0,
+        "fareClassOfService": "M",
+        "fareSequence": 304,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "SC",
+        "ruleNumber": "5517",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 13850,
+            "revenueFare": 12550,
+            "publishedFare": 12550,
+            "loyaltyPoints": 0,
+            "discountedFare": 12550,
+            "serviceCharges": [
+              {
+                "amount": 12550,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 12550,
+                "ticketCode": null
+              },
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 638,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 638,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MH5NfiB_U0d_TU1YQ341NTE3fn4wfjMyMn5_WCEwOjE1MTc1NDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1Ojc2OA--": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MH5NfiB_U0d_TU1YQ341NTE3fn4wfjMyMn5_WCEwOjE1MTc1NDoxMDA0Ojg1NDoyMzY0OjE1MjQ6ODk1Ojc2OA--",
+        "fareCode": "MMXC",
+        "isSumOfSector": false,
+        "classOfService": "M",
+        "classType": null,
+        "fareApplicationType": 0,
+        "fareClassOfService": "M",
+        "fareSequence": 322,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "MC",
+        "ruleNumber": "5517",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 16605,
+            "revenueFare": 15175,
+            "publishedFare": 15175,
+            "loyaltyPoints": 0,
+            "discountedFare": 15175,
+            "serviceCharges": [
+              {
+                "amount": 15175,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 15175,
+                "ticketCode": null
+              },
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 768,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 768,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MX5Lfn5TR35LU0FWfjU1MTF_fjB_MTE1fn5eMn5Gfn5TR35GU0FWfjU1MTF_fjB_MTA0fn5YITQ6MTAwNDo4NTQ6MjM2NDoxNTI0Ojg5NToxMDkwMDoyMTYwMg--": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MX5Lfn5TR35LU0FWfjU1MTF_fjB_MTE1fn5eMn5Gfn5TR35GU0FWfjU1MTF_fjB_MTA0fn5YITQ6MTAwNDo4NTQ6MjM2NDoxNTI0Ojg5NToxMDkwMDoyMTYwMg--",
+        "fareCode": "FSAV",
+        "isSumOfSector": true,
+        "classOfService": "F",
+        "classType": null,
+        "fareApplicationType": 2,
+        "fareClassOfService": "F",
+        "fareSequence": 104,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "RS",
+        "ruleNumber": "5511",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 23354,
+            "revenueFare": 21602,
+            "publishedFare": 21602,
+            "loyaltyPoints": 0,
+            "discountedFare": 20300,
+            "serviceCharges": [
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 1090,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1090,
+                "ticketCode": null
+              },
+              {
+                "amount": 21602,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 21602,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MX5Lfn5TR35LU01YfjU1MTd_fjB_MTE0fn5eMn5Gfn5TR35GU01YfjU1MTd_fjB_MTAzfn5YITQ6MTAwNDo4NTQ6MjM2NDoxNTI0Ojg5NToxMjQ2MDoyNDcwMg--": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MX5Lfn5TR35LU01YfjU1MTd_fjB_MTE0fn5eMn5Gfn5TR35GU01YfjU1MTd_fjB_MTAzfn5YITQ6MTAwNDo4NTQ6MjM2NDoxNTI0Ojg5NToxMjQ2MDoyNDcwMg--",
+        "fareCode": "FSMX",
+        "isSumOfSector": true,
+        "classOfService": "F",
+        "classType": null,
+        "fareApplicationType": 2,
+        "fareClassOfService": "F",
+        "fareSequence": 103,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "SC",
+        "ruleNumber": "5517",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 26610,
+            "revenueFare": 24702,
+            "publishedFare": 24702,
+            "loyaltyPoints": 0,
+            "discountedFare": 23400,
+            "serviceCharges": [
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 1246,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1246,
+                "ticketCode": null
+              },
+              {
+                "amount": 24702,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 24702,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "Mn5QMn5_U0d_UDJTTVh_NTUxN35_MH4xMTB_flheMX5QMn5_U0d_UDJTTVh_NTUxN35_MH4xMDF_fiE0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6MzA1MjA6NjA4NTI-": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "Mn5QMn5_U0d_UDJTTVh_NTUxN35_MH4xMTB_flheMX5QMn5_U0d_UDJTTVh_NTUxN35_MH4xMDF_fiE0OjEwMDQ6ODU0OjIzNjQ6MTUyNDo4OTU6MzA1MjA6NjA4NTI-",
+        "fareCode": "P2SMX",
+        "isSumOfSector": true,
+        "classOfService": "P2",
+        "classType": null,
+        "fareApplicationType": 2,
+        "fareClassOfService": "P2",
+        "fareSequence": 110,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "MC",
+        "ruleNumber": "5517",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 64566,
+            "revenueFare": 60852,
+            "publishedFare": 60852,
+            "loyaltyPoints": 0,
+            "discountedFare": 57804,
+            "serviceCharges": [
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 3052,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 3052,
+                "ticketCode": null
+              },
+              {
+                "amount": 60852,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 60852,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MX5Ofn5TR35OU0FWfjU1MTF_fjB_MTE0fn5eMn5Gfn5TR35GU0FWfjU1MTF_fjB_MTA0fn5YITQ6MTAwNDo4NTQ6MjM2NDoxNTI0Ojg5NToxMjI2MDoyNDMwMg--": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MX5Ofn5TR35OU0FWfjU1MTF_fjB_MTE0fn5eMn5Gfn5TR35GU0FWfjU1MTF_fjB_MTA0fn5YITQ6MTAwNDo4NTQ6MjM2NDoxNTI0Ojg5NToxMjI2MDoyNDMwMg--",
+        "fareCode": "FSAV",
+        "isSumOfSector": true,
+        "classOfService": "F",
+        "classType": null,
+        "fareApplicationType": 2,
+        "fareClassOfService": "F",
+        "fareSequence": 104,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "RS",
+        "ruleNumber": "5511",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 26190,
+            "revenueFare": 24302,
+            "publishedFare": 24302,
+            "loyaltyPoints": 0,
+            "discountedFare": 20300,
+            "serviceCharges": [
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 1226,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1226,
+                "ticketCode": null
+              },
+              {
+                "amount": 24302,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 24302,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "MX5Ofn5TR35OU01YfjU1MTd_fjB_MTExfn5eMn5Gfn5TR35GU01YfjU1MTd_fjB_MTAzfn5YITQ6MTAwNDo4NTQ6MjM2NDoxNTI0Ojg5NToxMzgwMDoyNzQwMg--": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "MX5Ofn5TR35OU01YfjU1MTd_fjB_MTExfn5eMn5Gfn5TR35GU01YfjU1MTd_fjB_MTAzfn5YITQ6MTAwNDo4NTQ6MjM2NDoxNTI0Ojg5NToxMzgwMDoyNzQwMg--",
+        "fareCode": "FSMX",
+        "isSumOfSector": true,
+        "classOfService": "F",
+        "classType": null,
+        "fareApplicationType": 2,
+        "fareClassOfService": "F",
+        "fareSequence": 103,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "SC",
+        "ruleNumber": "5517",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 29444,
+            "revenueFare": 27402,
+            "publishedFare": 27402,
+            "loyaltyPoints": 0,
+            "discountedFare": 23400,
+            "serviceCharges": [
+              {
+                "amount": 100,
+                "code": "RCS",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 100,
+                "ticketCode": "RCS"
+              },
+              {
+                "amount": 85,
+                "code": "TRF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 85,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 236,
+                "code": "ASF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 236,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 152,
+                "code": "UDF",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 152,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 89,
+                "code": "AAT",
+                "detail": "DEL-DBR",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 89,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 1380,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1380,
+                "ticketCode": null
+              },
+              {
+                "amount": 27402,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 27402,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      }
+    },
+    "currencyCode": "INR",
+    "includeTaxesAndFees": true,
+    "searchParams": {
+      "origin": {
+        "stationCode": "DEL",
+        "fullName": "Delhi",
+        "locationDetails": {
+          "countryCode": "IN"
+        },
+        "currency": "INR",
+        "originCurrency": "INR"
+      },
+      "destination": {
+        "stationCode": "BOM",
+        "fullName": "Mumbai",
+        "locationDetails": {
+          "countryCode": "IN"
+        },
+        "currency": "INR"
+      },
+      "onWardDate": "2025-11-24T00:00:00.000Z",
+      "returnDate": "",
+      "pax": {
+        "adult": 1,
+        "child": 0,
+        "infant": 0,
+        "srCitizen": 0
+      },
+      "tripType": "1",
+      "redirectTo": "/",
+      "isChanged": false,
+      "onWardDateObject": "2025-11-24T00:00:00.000Z",
+      "returnDateObject": "",
+      "onWardDateFormattedString": "24 Nov 2025",
+      "returnDateFormattedString": "",
+      "onWardDateFormattedStringDDMM": "24 Nov",
+      "returnDateFormattedStringDDMM": "",
+      "returnDateFormattedStringDDMMYYYY": "",
+      "timeZoneCodes": {
+        "DEL": 330,
+        "BOM": 330
+      }
+    },
+    "stationsFullName": {
+      "DEL": "Delhi",
+      "BOM": "Mumbai"
+    },
+    "stationCodeTimeZoneOffsets": {
+      "DEL": 330,
+      "BOM": 330
+    },
+    "airportNames": {
+      "DEL": "Indira Gandhi International Airport",
+      "BOM": "Chhatrapati Shivaji Maharaj International Airport"
+    }
+  }
+}

@@ -1,0 +1,1410 @@
+{
+  "data": {
+    "trips": [
+      {
+        "origin": "BLR",
+        "destination": null,
+        "journeysAvailable": [
+          {
+            "flightType": 4,
+            "stops": 1,
+            "designator": {
+              "destination": "DXB",
+              "origin": "BLR",
+              "arrival": "2025-12-07T00:55:00",
+              "departure": "2025-12-06T06:10:00",
+              "originFullName": "Bengaluru",
+              "destinationFullName": "Dubai"
+            },
+            "fares": {
+              "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MjIyfn5YXjF_TH5_U0d_TFNBVn41MjExfn4wfjExNn5_ITQ6MTAyNDoxMjI1NDoxNzcwNDoxMTg1OjExOTQwOjIzNzUw": {
+                "fareAvailabilityKey": "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MjIyfn5YXjF_TH5_U0d_TFNBVn41MjExfn4wfjExNn5_ITQ6MTAyNDoxMjI1NDoxNzcwNDoxMTg1OjExOTQwOjIzNzUw",
+                "fareCode": "CSAV",
+                "availableCount": 1,
+                "isSumOfSector": true,
+                "classOfService": "C"
+              }
+            },
+            "journeyKey": "U0d_IDY1NX4gfn5CTFJ_MTIvMDYvMjAyNSAwNjoxMH5CT01_MTIvMDYvMjAyNSAwNzo1NX5_XlNHfiAgMTN_IH5_Qk9NfjEyLzA2LzIwMjUgMjI6NTV_RFhCfjEyLzA3LzIwMjUgMDA6NTV_fg--",
+            "segments": [
+              {
+                "isBlocked": false,
+                "isHosted": true,
+                "isChangeOfGauge": false,
+                "designator": {
+                  "destination": "BOM",
+                  "origin": "BLR",
+                  "arrival": "2025-12-06T07:55:00",
+                  "departure": "2025-12-06T06:10:00",
+                  "originFullName": "Bengaluru",
+                  "destinationFullName": "Mumbai"
+                },
+                "isSeatmapViewable": true,
+                "segmentKey": "U0d_IDY1NX4gfn5CTFJ_MTIvMDYvMjAyNSAwNjoxMH5CT01_MTIvMDYvMjAyNSAwNzo1NX5_",
+                "identifier": {
+                  "identifier": "655",
+                  "carrierCode": "SG",
+                  "opSuffix": null
+                },
+                "cabinOfService": null,
+                "externalIdentifier": null,
+                "changeReasonCode": 0,
+                "segmentType": 0,
+                "international": false,
+                "legs": [
+                  {
+                    "legKey": "NjM5MDA1OTgyMDAwMDAwMDAwIVNHITY1NSEgIUJMUiFCT00hMTA1OTkwMjgyMA--",
+                    "operationsInfo": null,
+                    "designator": {
+                      "destination": "BOM",
+                      "origin": "BLR",
+                      "arrival": "2025-12-06T07:55:00",
+                      "departure": "2025-12-06T06:10:00",
+                      "originFullName": "Bengaluru",
+                      "destinationFullName": "Mumbai"
+                    },
+                    "legInfo": {
+                      "departureTimeUtc": "2025-12-06T00:40:00Z",
+                      "arrivalTimeUtc": "2025-12-06T02:25:00Z",
+                      "adjustedCapacity": 189,
+                      "arrivalTerminal": "T-1",
+                      "arrivalTimeVariant": 330,
+                      "backMoveDays": 0,
+                      "capacity": 189,
+                      "changeOfDirection": false,
+                      "codeShareIndicator": 0,
+                      "departureTerminal": "T-1",
+                      "departureTimeVariant": 330,
+                      "equipmentType": "73H",
+                      "equipmentTypeSuffix": "A01",
+                      "eTicket": true,
+                      "irop": false,
+                      "lid": 189,
+                      "marketingCode": null,
+                      "marketingOverride": false,
+                      "onTime": null,
+                      "operatedByText": null,
+                      "operatingCarrier": null,
+                      "operatingFlightNumber": null,
+                      "operatingOpSuffix": null,
+                      "outMoveDays": 0,
+                      "arrivalTime": "2025-12-06T07:55:00",
+                      "departureTime": "2025-12-06T06:10:00",
+                      "prbcCode": "737A01",
+                      "scheduleServiceType": "J",
+                      "sold": 59,
+                      "status": 0,
+                      "subjectToGovtApproval": false
+                    },
+                    "nests": [],
+                    "ssrs": [
+                      {
+                        "available": 10,
+                        "ssrNestCode": "DFNS",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "HCPF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "SNST",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 6,
+                        "ssrNestCode": "STUD",
+                        "lid": 10,
+                        "sold": 4,
+                        "unitSold": 4
+                      },
+                      {
+                        "available": 4,
+                        "ssrNestCode": "UNMR",
+                        "lid": 4,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "WMSF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      }
+                    ],
+                    "seatmapReference": "U0chIDY1NSEgITYzOTAwNTk4MjAwMDAwMDAwMCFCTFIhQk9N",
+                    "flightReference": null,
+                    "viaInfo": {},
+                    "flightDuration": "1h 45m",
+                    "arrivalTime": "07:55",
+                    "departureTime": "06:10",
+                    "arrivalDateDifference": 0,
+                    "carrierString": "SG 655",
+                    "departureDateString": "Sat, 06 Dec",
+                    "arrivalDateString": "Sat, 06 Dec"
+                  }
+                ],
+                "stopInfo": {
+                  "station": "BOM",
+                  "stationFullName": "Mumbai",
+                  "startTime": "07:55",
+                  "startDateTimeString": "Sat, 06 Dec",
+                  "waitingTime": "15h 0m",
+                  "endTime": "22:55",
+                  "endDateTimeString": "Sat, 06 Dec"
+                },
+                "flightDuration": "1h 45m",
+                "arrivalTime": "07:55",
+                "arrivalDateDifference": 0,
+                "departureTime": "06:10",
+                "carrierString": "SG 655",
+                "departureDateString": "Sat, 06 Dec",
+                "arrivalDateString": "Sat, 06 Dec"
+              },
+              {
+                "isBlocked": false,
+                "isHosted": true,
+                "isChangeOfGauge": false,
+                "designator": {
+                  "destination": "DXB",
+                  "origin": "BOM",
+                  "arrival": "2025-12-07T00:55:00",
+                  "departure": "2025-12-06T22:55:00",
+                  "originFullName": "Mumbai",
+                  "destinationFullName": "Dubai"
+                },
+                "isSeatmapViewable": true,
+                "segmentKey": "U0d_ICAxM34gfn5CT01_MTIvMDYvMjAyNSAyMjo1NX5EWEJ_MTIvMDcvMjAyNSAwMDo1NX5_",
+                "identifier": {
+                  "identifier": "13",
+                  "carrierCode": "SG",
+                  "opSuffix": null
+                },
+                "cabinOfService": null,
+                "externalIdentifier": null,
+                "changeReasonCode": 0,
+                "segmentType": 0,
+                "international": true,
+                "legs": [
+                  {
+                    "legKey": "NjM5MDA2NTg1MDAwMDAwMDAwIVNHITEzISAhQk9NIURYQiE3ODE5MDAxMzg-",
+                    "operationsInfo": null,
+                    "designator": {
+                      "destination": "DXB",
+                      "origin": "BOM",
+                      "arrival": "2025-12-07T00:55:00",
+                      "departure": "2025-12-06T22:55:00",
+                      "originFullName": "Mumbai",
+                      "destinationFullName": "Dubai"
+                    },
+                    "legInfo": {
+                      "departureTimeUtc": "2025-12-06T17:25:00Z",
+                      "arrivalTimeUtc": "2025-12-06T20:55:00Z",
+                      "adjustedCapacity": 189,
+                      "arrivalTerminal": "T-1",
+                      "arrivalTimeVariant": 240,
+                      "backMoveDays": 0,
+                      "capacity": 189,
+                      "changeOfDirection": false,
+                      "codeShareIndicator": 0,
+                      "departureTerminal": "T-2",
+                      "departureTimeVariant": 330,
+                      "equipmentType": "7M8",
+                      "equipmentTypeSuffix": "YDA",
+                      "eTicket": true,
+                      "irop": false,
+                      "lid": 189,
+                      "marketingCode": null,
+                      "marketingOverride": false,
+                      "onTime": null,
+                      "operatedByText": null,
+                      "operatingCarrier": null,
+                      "operatingFlightNumber": null,
+                      "operatingOpSuffix": null,
+                      "outMoveDays": 0,
+                      "arrivalTime": "2025-12-07T00:55:00",
+                      "departureTime": "2025-12-06T22:55:00",
+                      "prbcCode": "737802I",
+                      "scheduleServiceType": "J",
+                      "sold": 154,
+                      "status": 0,
+                      "subjectToGovtApproval": false
+                    },
+                    "nests": [],
+                    "ssrs": [
+                      {
+                        "available": 10,
+                        "ssrNestCode": "DFNS",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "HCPF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "SNST",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "STUD",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 4,
+                        "ssrNestCode": "UNMR",
+                        "lid": 4,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "WMSF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      }
+                    ],
+                    "seatmapReference": "U0chICAxMyEgITYzOTAwNjU4NTAwMDAwMDAwMCFCT00hRFhC",
+                    "flightReference": null,
+                    "viaInfo": {},
+                    "flightDuration": "3h 30m",
+                    "arrivalTime": "00:55",
+                    "departureTime": "22:55",
+                    "arrivalDateDifference": 1,
+                    "carrierString": "SG 13",
+                    "departureDateString": "Sat, 06 Dec",
+                    "arrivalDateString": "Sun, 07 Dec"
+                  }
+                ],
+                "stopInfo": {},
+                "flightDuration": "3h 30m",
+                "arrivalTime": "00:55",
+                "arrivalDateDifference": 1,
+                "departureTime": "22:55",
+                "carrierString": "SG 13",
+                "departureDateString": "Sat, 06 Dec",
+                "arrivalDateString": "Sun, 07 Dec"
+              }
+            ],
+            "notForGeneralUser": false,
+            "carrierString": "SG 655, SG 13",
+            "departureTime": "06:10",
+            "arrivalDateDifference": 1,
+            "arrivalTime": "00:55",
+            "flightDuration": "20h 15m",
+            "departureDateString": "Sat, 06 Dec",
+            "arrivalDateString": "Sun, 07 Dec",
+            "isInternational": true
+          },
+          {
+            "flightType": 4,
+            "stops": 1,
+            "designator": {
+              "destination": "DXB",
+              "origin": "BLR",
+              "arrival": "2025-12-06T22:05:00",
+              "departure": "2025-12-06T05:55:00",
+              "originFullName": "Bengaluru",
+              "destinationFullName": "Dubai"
+            },
+            "fares": {
+              "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MzEwfn5YXjF_WH5_U0d_WFNBVn41MjExfn4wfjk0fn4hNDoxMDI0OjEyMjU0OjE3NzA0OjExODU6MjQ0NDA6NDg3NTA-": {
+                "fareAvailabilityKey": "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MzEwfn5YXjF_WH5_U0d_WFNBVn41MjExfn4wfjk0fn4hNDoxMDI0OjEyMjU0OjE3NzA0OjExODU6MjQ0NDA6NDg3NTA-",
+                "fareCode": "CSAV",
+                "availableCount": 1,
+                "isSumOfSector": true,
+                "classOfService": "C"
+              }
+            },
+            "journeyKey": "U0d_IDE0MX4gfn5CTFJ_MTIvMDYvMjAyNSAwNTo1NX5ERUx_MTIvMDYvMjAyNSAwODo0NX5_XlNHfiAgIDV_IH5_REVMfjEyLzA2LzIwMjUgMTk6MjB_RFhCfjEyLzA2LzIwMjUgMjI6MDV_fg--",
+            "segments": [
+              {
+                "isBlocked": false,
+                "isHosted": true,
+                "isChangeOfGauge": false,
+                "designator": {
+                  "destination": "DEL",
+                  "origin": "BLR",
+                  "arrival": "2025-12-06T08:45:00",
+                  "departure": "2025-12-06T05:55:00",
+                  "originFullName": "Bengaluru",
+                  "destinationFullName": "Delhi"
+                },
+                "isSeatmapViewable": true,
+                "segmentKey": "U0d_IDE0MX4gfn5CTFJ_MTIvMDYvMjAyNSAwNTo1NX5ERUx_MTIvMDYvMjAyNSAwODo0NX5_",
+                "identifier": {
+                  "identifier": "141",
+                  "carrierCode": "SG",
+                  "opSuffix": null
+                },
+                "cabinOfService": null,
+                "externalIdentifier": null,
+                "changeReasonCode": 0,
+                "segmentType": 0,
+                "international": false,
+                "legs": [
+                  {
+                    "legKey": "NjM5MDA1OTczMDAwMDAwMDAwIVNHITE0MSEgIUJMUiFERUwhMTA2MzkwMDEyOQ--",
+                    "operationsInfo": null,
+                    "designator": {
+                      "destination": "DEL",
+                      "origin": "BLR",
+                      "arrival": "2025-12-06T08:45:00",
+                      "departure": "2025-12-06T05:55:00",
+                      "originFullName": "Bengaluru",
+                      "destinationFullName": "Delhi"
+                    },
+                    "legInfo": {
+                      "departureTimeUtc": "2025-12-06T00:25:00Z",
+                      "arrivalTimeUtc": "2025-12-06T03:15:00Z",
+                      "adjustedCapacity": 186,
+                      "arrivalTerminal": "T-1D",
+                      "arrivalTimeVariant": 330,
+                      "backMoveDays": 0,
+                      "capacity": 186,
+                      "changeOfDirection": false,
+                      "codeShareIndicator": 0,
+                      "departureTerminal": "T-1",
+                      "departureTimeVariant": 330,
+                      "equipmentType": "73H",
+                      "equipmentTypeSuffix": "185",
+                      "eTicket": true,
+                      "irop": false,
+                      "lid": 190,
+                      "marketingCode": null,
+                      "marketingOverride": false,
+                      "onTime": null,
+                      "operatedByText": null,
+                      "operatingCarrier": null,
+                      "operatingFlightNumber": null,
+                      "operatingOpSuffix": null,
+                      "outMoveDays": 0,
+                      "arrivalTime": "2025-12-06T08:45:00",
+                      "departureTime": "2025-12-06T05:55:00",
+                      "prbcCode": "737185",
+                      "scheduleServiceType": "J",
+                      "sold": 74,
+                      "status": 0,
+                      "subjectToGovtApproval": false
+                    },
+                    "nests": [],
+                    "ssrs": [
+                      {
+                        "available": 8,
+                        "ssrNestCode": "DFNS",
+                        "lid": 10,
+                        "sold": 2,
+                        "unitSold": 2
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "HCPF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "SNST",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 7,
+                        "ssrNestCode": "STUD",
+                        "lid": 10,
+                        "sold": 3,
+                        "unitSold": 3
+                      },
+                      {
+                        "available": 4,
+                        "ssrNestCode": "UNMR",
+                        "lid": 4,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "WMSF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      }
+                    ],
+                    "seatmapReference": "U0chIDE0MSEgITYzOTAwNTk3MzAwMDAwMDAwMCFCTFIhREVM",
+                    "flightReference": null,
+                    "viaInfo": {},
+                    "flightDuration": "2h 50m",
+                    "arrivalTime": "08:45",
+                    "departureTime": "05:55",
+                    "arrivalDateDifference": 0,
+                    "carrierString": "SG 141",
+                    "departureDateString": "Sat, 06 Dec",
+                    "arrivalDateString": "Sat, 06 Dec"
+                  }
+                ],
+                "stopInfo": {
+                  "station": "DEL",
+                  "stationFullName": "Delhi",
+                  "startTime": "08:45",
+                  "startDateTimeString": "Sat, 06 Dec",
+                  "waitingTime": "10h 35m",
+                  "endTime": "19:20",
+                  "endDateTimeString": "Sat, 06 Dec"
+                },
+                "flightDuration": "2h 50m",
+                "arrivalTime": "08:45",
+                "arrivalDateDifference": 0,
+                "departureTime": "05:55",
+                "carrierString": "SG 141",
+                "departureDateString": "Sat, 06 Dec",
+                "arrivalDateString": "Sat, 06 Dec"
+              },
+              {
+                "isBlocked": false,
+                "isHosted": true,
+                "isChangeOfGauge": false,
+                "designator": {
+                  "destination": "DXB",
+                  "origin": "DEL",
+                  "arrival": "2025-12-06T22:05:00",
+                  "departure": "2025-12-06T19:20:00",
+                  "originFullName": "Delhi",
+                  "destinationFullName": "Dubai"
+                },
+                "isSeatmapViewable": true,
+                "segmentKey": "U0d_ICAgNX4gfn5ERUx_MTIvMDYvMjAyNSAxOToyMH5EWEJ_MTIvMDYvMjAyNSAyMjowNX5_",
+                "identifier": {
+                  "identifier": "5",
+                  "carrierCode": "SG",
+                  "opSuffix": null
+                },
+                "cabinOfService": null,
+                "externalIdentifier": null,
+                "changeReasonCode": 0,
+                "segmentType": 0,
+                "international": true,
+                "legs": [
+                  {
+                    "legKey": "NjM5MDA2NDU2MDAwMDAwMDAwIVNHITUhICFERUwhRFhCITc4MTkwMDAxNA--",
+                    "operationsInfo": null,
+                    "designator": {
+                      "destination": "DXB",
+                      "origin": "DEL",
+                      "arrival": "2025-12-06T22:05:00",
+                      "departure": "2025-12-06T19:20:00",
+                      "originFullName": "Delhi",
+                      "destinationFullName": "Dubai"
+                    },
+                    "legInfo": {
+                      "departureTimeUtc": "2025-12-06T13:50:00Z",
+                      "arrivalTimeUtc": "2025-12-06T18:05:00Z",
+                      "adjustedCapacity": 189,
+                      "arrivalTerminal": "T-1",
+                      "arrivalTimeVariant": 240,
+                      "backMoveDays": 0,
+                      "capacity": 189,
+                      "changeOfDirection": false,
+                      "codeShareIndicator": 0,
+                      "departureTerminal": "T-3",
+                      "departureTimeVariant": 330,
+                      "equipmentType": "73H",
+                      "equipmentTypeSuffix": "A01",
+                      "eTicket": true,
+                      "irop": false,
+                      "lid": 189,
+                      "marketingCode": null,
+                      "marketingOverride": false,
+                      "onTime": null,
+                      "operatedByText": null,
+                      "operatingCarrier": null,
+                      "operatingFlightNumber": null,
+                      "operatingOpSuffix": null,
+                      "outMoveDays": 0,
+                      "arrivalTime": "2025-12-06T22:05:00",
+                      "departureTime": "2025-12-06T19:20:00",
+                      "prbcCode": "737A01I",
+                      "scheduleServiceType": "J",
+                      "sold": 160,
+                      "status": 0,
+                      "subjectToGovtApproval": false
+                    },
+                    "nests": [],
+                    "ssrs": [
+                      {
+                        "available": 10,
+                        "ssrNestCode": "DFNS",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "HCPF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "SNST",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "STUD",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 4,
+                        "ssrNestCode": "UNMR",
+                        "lid": 4,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "WMSF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      }
+                    ],
+                    "seatmapReference": "U0chICAgNSEgITYzOTAwNjQ1NjAwMDAwMDAwMCFERUwhRFhC",
+                    "flightReference": null,
+                    "viaInfo": {},
+                    "flightDuration": "4h 15m",
+                    "arrivalTime": "22:05",
+                    "departureTime": "19:20",
+                    "arrivalDateDifference": 0,
+                    "carrierString": "SG 5",
+                    "departureDateString": "Sat, 06 Dec",
+                    "arrivalDateString": "Sat, 06 Dec"
+                  }
+                ],
+                "stopInfo": {},
+                "flightDuration": "4h 15m",
+                "arrivalTime": "22:05",
+                "arrivalDateDifference": 0,
+                "departureTime": "19:20",
+                "carrierString": "SG 5",
+                "departureDateString": "Sat, 06 Dec",
+                "arrivalDateString": "Sat, 06 Dec"
+              }
+            ],
+            "notForGeneralUser": false,
+            "carrierString": "SG 141, SG 5",
+            "departureTime": "05:55",
+            "arrivalDateDifference": 0,
+            "arrivalTime": "22:05",
+            "flightDuration": "17h 40m",
+            "departureDateString": "Sat, 06 Dec",
+            "arrivalDateString": "Sat, 06 Dec",
+            "isInternational": true
+          },
+          {
+            "flightType": 4,
+            "stops": 1,
+            "designator": {
+              "destination": "DXB",
+              "origin": "BLR",
+              "arrival": "2025-12-07T10:10:00",
+              "departure": "2025-12-06T16:25:00",
+              "originFullName": "Bengaluru",
+              "destinationFullName": "Dubai"
+            },
+            "fares": {
+              "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MzEwfn5YXjF_UDN_flNHflAzU0FWfjUyMTF_fjB_MzR_fiE0OjEwMjQ6MTIyNTQ6MTc3MDQ6MTE4NToyOTQ4MDo1ODg1MA--": {
+                "fareAvailabilityKey": "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MzEwfn5YXjF_UDN_flNHflAzU0FWfjUyMTF_fjB_MzR_fiE0OjEwMjQ6MTIyNTQ6MTc3MDQ6MTE4NToyOTQ4MDo1ODg1MA--",
+                "fareCode": "CSAV",
+                "availableCount": 1,
+                "isSumOfSector": true,
+                "classOfService": "C"
+              }
+            },
+            "journeyKey": "U0d_IDUzNX4gfn5CTFJ_MTIvMDYvMjAyNSAxNjoyNX5ERUx_MTIvMDYvMjAyNSAxOToyMH5_XlNHfiAgMTF_IH5_REVMfjEyLzA3LzIwMjUgMDc6NDV_RFhCfjEyLzA3LzIwMjUgMTA6MTB_fg--",
+            "segments": [
+              {
+                "isBlocked": false,
+                "isHosted": true,
+                "isChangeOfGauge": false,
+                "designator": {
+                  "destination": "DEL",
+                  "origin": "BLR",
+                  "arrival": "2025-12-06T19:20:00",
+                  "departure": "2025-12-06T16:25:00",
+                  "originFullName": "Bengaluru",
+                  "destinationFullName": "Delhi"
+                },
+                "isSeatmapViewable": true,
+                "segmentKey": "U0d_IDUzNX4gfn5CTFJ_MTIvMDYvMjAyNSAxNjoyNX5ERUx_MTIvMDYvMjAyNSAxOToyMH5_",
+                "identifier": {
+                  "identifier": "535",
+                  "carrierCode": "SG",
+                  "opSuffix": null
+                },
+                "cabinOfService": null,
+                "externalIdentifier": null,
+                "changeReasonCode": 0,
+                "segmentType": 0,
+                "international": false,
+                "legs": [
+                  {
+                    "legKey": "NjM5MDA2MzUxMDAwMDAwMDAwIVNHITUzNSEgIUJMUiFERUwhNzgxOTA0MTQ0",
+                    "operationsInfo": null,
+                    "designator": {
+                      "destination": "DEL",
+                      "origin": "BLR",
+                      "arrival": "2025-12-06T19:20:00",
+                      "departure": "2025-12-06T16:25:00",
+                      "originFullName": "Bengaluru",
+                      "destinationFullName": "Delhi"
+                    },
+                    "legInfo": {
+                      "departureTimeUtc": "2025-12-06T10:55:00Z",
+                      "arrivalTimeUtc": "2025-12-06T13:50:00Z",
+                      "adjustedCapacity": 189,
+                      "arrivalTerminal": "T-1D",
+                      "arrivalTimeVariant": 330,
+                      "backMoveDays": 0,
+                      "capacity": 189,
+                      "changeOfDirection": false,
+                      "codeShareIndicator": 0,
+                      "departureTerminal": "T-1",
+                      "departureTimeVariant": 330,
+                      "equipmentType": "73H",
+                      "equipmentTypeSuffix": "A01",
+                      "eTicket": true,
+                      "irop": false,
+                      "lid": 189,
+                      "marketingCode": null,
+                      "marketingOverride": false,
+                      "onTime": null,
+                      "operatedByText": null,
+                      "operatingCarrier": null,
+                      "operatingFlightNumber": null,
+                      "operatingOpSuffix": null,
+                      "outMoveDays": 0,
+                      "arrivalTime": "2025-12-06T19:20:00",
+                      "departureTime": "2025-12-06T16:25:00",
+                      "prbcCode": "737A01",
+                      "scheduleServiceType": "J",
+                      "sold": 62,
+                      "status": 0,
+                      "subjectToGovtApproval": false
+                    },
+                    "nests": [],
+                    "ssrs": [
+                      {
+                        "available": 6,
+                        "ssrNestCode": "DFNS",
+                        "lid": 10,
+                        "sold": 4,
+                        "unitSold": 4
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "HCPF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 6,
+                        "ssrNestCode": "SNST",
+                        "lid": 10,
+                        "sold": 4,
+                        "unitSold": 4
+                      },
+                      {
+                        "available": 9,
+                        "ssrNestCode": "STUD",
+                        "lid": 10,
+                        "sold": 1,
+                        "unitSold": 1
+                      },
+                      {
+                        "available": 4,
+                        "ssrNestCode": "UNMR",
+                        "lid": 4,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "WMSF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      }
+                    ],
+                    "seatmapReference": "U0chIDUzNSEgITYzOTAwNjM1MTAwMDAwMDAwMCFCTFIhREVM",
+                    "flightReference": null,
+                    "viaInfo": {},
+                    "flightDuration": "2h 55m",
+                    "arrivalTime": "19:20",
+                    "departureTime": "16:25",
+                    "arrivalDateDifference": 0,
+                    "carrierString": "SG 535",
+                    "departureDateString": "Sat, 06 Dec",
+                    "arrivalDateString": "Sat, 06 Dec"
+                  }
+                ],
+                "stopInfo": {
+                  "station": "DEL",
+                  "stationFullName": "Delhi",
+                  "startTime": "19:20",
+                  "startDateTimeString": "Sat, 06 Dec",
+                  "waitingTime": "12h 25m",
+                  "endTime": "07:45",
+                  "endDateTimeString": "Sun, 07 Dec"
+                },
+                "flightDuration": "2h 55m",
+                "arrivalTime": "19:20",
+                "arrivalDateDifference": 0,
+                "departureTime": "16:25",
+                "carrierString": "SG 535",
+                "departureDateString": "Sat, 06 Dec",
+                "arrivalDateString": "Sat, 06 Dec"
+              },
+              {
+                "isBlocked": false,
+                "isHosted": true,
+                "isChangeOfGauge": false,
+                "designator": {
+                  "destination": "DXB",
+                  "origin": "DEL",
+                  "arrival": "2025-12-07T10:10:00",
+                  "departure": "2025-12-07T07:45:00",
+                  "originFullName": "Delhi",
+                  "destinationFullName": "Dubai"
+                },
+                "isSeatmapViewable": true,
+                "segmentKey": "U0d_ICAxMX4gfn5ERUx_MTIvMDcvMjAyNSAwNzo0NX5EWEJ_MTIvMDcvMjAyNSAxMDoxMH5_",
+                "identifier": {
+                  "identifier": "11",
+                  "carrierCode": "SG",
+                  "opSuffix": null
+                },
+                "cabinOfService": null,
+                "externalIdentifier": null,
+                "changeReasonCode": 0,
+                "segmentType": 0,
+                "international": true,
+                "legs": [
+                  {
+                    "legKey": "NjM5MDA2OTAzMDAwMDAwMDAwIVNHITExISAhREVMIURYQiE3ODE5MDAwNzc-",
+                    "operationsInfo": null,
+                    "designator": {
+                      "destination": "DXB",
+                      "origin": "DEL",
+                      "arrival": "2025-12-07T10:10:00",
+                      "departure": "2025-12-07T07:45:00",
+                      "originFullName": "Delhi",
+                      "destinationFullName": "Dubai"
+                    },
+                    "legInfo": {
+                      "departureTimeUtc": "2025-12-07T02:15:00Z",
+                      "arrivalTimeUtc": "2025-12-07T06:10:00Z",
+                      "adjustedCapacity": 189,
+                      "arrivalTerminal": "T-1",
+                      "arrivalTimeVariant": 240,
+                      "backMoveDays": 0,
+                      "capacity": 189,
+                      "changeOfDirection": false,
+                      "codeShareIndicator": 0,
+                      "departureTerminal": "T-3",
+                      "departureTimeVariant": 330,
+                      "equipmentType": "73H",
+                      "equipmentTypeSuffix": "F4A",
+                      "eTicket": true,
+                      "irop": false,
+                      "lid": 189,
+                      "marketingCode": null,
+                      "marketingOverride": false,
+                      "onTime": null,
+                      "operatedByText": null,
+                      "operatingCarrier": null,
+                      "operatingFlightNumber": null,
+                      "operatingOpSuffix": null,
+                      "outMoveDays": 0,
+                      "arrivalTime": "2025-12-07T10:10:00",
+                      "departureTime": "2025-12-07T07:45:00",
+                      "prbcCode": "737802I",
+                      "scheduleServiceType": "J",
+                      "sold": 177,
+                      "status": 0,
+                      "subjectToGovtApproval": false
+                    },
+                    "nests": [],
+                    "ssrs": [
+                      {
+                        "available": 10,
+                        "ssrNestCode": "DFNS",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "HCPF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "SNST",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "STUD",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 4,
+                        "ssrNestCode": "UNMR",
+                        "lid": 4,
+                        "sold": 0,
+                        "unitSold": 0
+                      },
+                      {
+                        "available": 10,
+                        "ssrNestCode": "WMSF",
+                        "lid": 10,
+                        "sold": 0,
+                        "unitSold": 0
+                      }
+                    ],
+                    "seatmapReference": "U0chICAxMSEgITYzOTAwNjkwMzAwMDAwMDAwMCFERUwhRFhC",
+                    "flightReference": null,
+                    "viaInfo": {},
+                    "flightDuration": "3h 55m",
+                    "arrivalTime": "10:10",
+                    "departureTime": "07:45",
+                    "arrivalDateDifference": 0,
+                    "carrierString": "SG 11",
+                    "departureDateString": "Sun, 07 Dec",
+                    "arrivalDateString": "Sun, 07 Dec"
+                  }
+                ],
+                "stopInfo": {},
+                "flightDuration": "3h 55m",
+                "arrivalTime": "10:10",
+                "arrivalDateDifference": 0,
+                "departureTime": "07:45",
+                "carrierString": "SG 11",
+                "departureDateString": "Sun, 07 Dec",
+                "arrivalDateString": "Sun, 07 Dec"
+              }
+            ],
+            "notForGeneralUser": false,
+            "carrierString": "SG 535, SG 11",
+            "departureTime": "16:25",
+            "arrivalDateDifference": 1,
+            "arrivalTime": "10:10",
+            "flightDuration": "19h 15m",
+            "departureDateString": "Sat, 06 Dec",
+            "arrivalDateString": "Sun, 07 Dec",
+            "isInternational": true
+          }
+        ],
+        "originFullName": "Bengaluru",
+        "departureDateStringWithYear": "Sat, 06 Dec 2025"
+      }
+    ],
+    "faresAvailable": {
+      "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MjIyfn5YXjF_Sn5_U0d_SlNBVn41MjExfn4wfjExOH5_ITQ6MTAyNDoxMjI1NDoxNzcwNDoxMTg1OjExNDQwOjIyNzUw": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MjIyfn5YXjF_Sn5_U0d_SlNBVn41MjExfn4wfjExOH5_ITQ6MTAyNDoxMjI1NDoxNzcwNDoxMTg1OjExNDQwOjIyNzUw",
+        "fareCode": "CSAV",
+        "isSumOfSector": true,
+        "classOfService": "C",
+        "classType": null,
+        "fareApplicationType": 2,
+        "fareClassOfService": "C",
+        "fareSequence": 222,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "RS",
+        "ruleNumber": "5511",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 27109,
+            "revenueFare": 22750,
+            "publishedFare": 22750,
+            "loyaltyPoints": 0,
+            "discountedFare": 10600,
+            "serviceCharges": [
+              {
+                "amount": 102,
+                "code": "TRF",
+                "detail": "BLR-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "USD",
+                "foreignAmount": 1.1,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 1225,
+                "code": "ASF",
+                "detail": "BLR-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "USD",
+                "foreignAmount": 13.8,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 1770,
+                "code": "UDF",
+                "detail": "BLR-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1770,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 118,
+                "code": "AAT",
+                "detail": "BLR-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "AED",
+                "foreignAmount": 4.9,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 1144,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1144,
+                "ticketCode": null
+              },
+              {
+                "amount": 22750,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 22750,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MjIyfn5YXjF_TH5_U0d_TFNBVn41MjExfn4wfjExNn5_ITQ6MTAyNDoxMjI1NDoxNzcwNDoxMTg1OjExOTQwOjIzNzUw": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MjIyfn5YXjF_TH5_U0d_TFNBVn41MjExfn4wfjExNn5_ITQ6MTAyNDoxMjI1NDoxNzcwNDoxMTg1OjExOTQwOjIzNzUw",
+        "fareCode": "CSAV",
+        "isSumOfSector": true,
+        "classOfService": "C",
+        "classType": null,
+        "fareApplicationType": 2,
+        "fareClassOfService": "C",
+        "fareSequence": 222,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "RS",
+        "ruleNumber": "5511",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 28159,
+            "revenueFare": 23750,
+            "publishedFare": 23750,
+            "loyaltyPoints": 0,
+            "discountedFare": 10600,
+            "serviceCharges": [
+              {
+                "amount": 102,
+                "code": "TRF",
+                "detail": "BLR-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "USD",
+                "foreignAmount": 1.1,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 1225,
+                "code": "ASF",
+                "detail": "BLR-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "USD",
+                "foreignAmount": 13.8,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 1770,
+                "code": "UDF",
+                "detail": "BLR-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1770,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 118,
+                "code": "AAT",
+                "detail": "BLR-BOM",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "AED",
+                "foreignAmount": 4.9,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 1194,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1194,
+                "ticketCode": null
+              },
+              {
+                "amount": 23750,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 23750,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MzEwfn5YXjF_WH5_U0d_WFNBVn41MjExfn4wfjk0fn4hNDoxMDI0OjEyMjU0OjE3NzA0OjExODU6MjQ0NDA6NDg3NTA-": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MzEwfn5YXjF_WH5_U0d_WFNBVn41MjExfn4wfjk0fn4hNDoxMDI0OjEyMjU0OjE3NzA0OjExODU6MjQ0NDA6NDg3NTA-",
+        "fareCode": "CSAV",
+        "isSumOfSector": true,
+        "classOfService": "C",
+        "classType": null,
+        "fareApplicationType": 2,
+        "fareClassOfService": "C",
+        "fareSequence": 310,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "RS",
+        "ruleNumber": "5511",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 54409,
+            "revenueFare": 48750,
+            "publishedFare": 48750,
+            "loyaltyPoints": 0,
+            "discountedFare": 13800,
+            "serviceCharges": [
+              {
+                "amount": 102,
+                "code": "TRF",
+                "detail": "BLR-DEL",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "USD",
+                "foreignAmount": 1.1,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 1225,
+                "code": "ASF",
+                "detail": "BLR-DEL",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "USD",
+                "foreignAmount": 13.8,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 1770,
+                "code": "UDF",
+                "detail": "BLR-DEL",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1770,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 118,
+                "code": "AAT",
+                "detail": "BLR-DEL",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "AED",
+                "foreignAmount": 4.9,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 2444,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 2444,
+                "ticketCode": null
+              },
+              {
+                "amount": 48750,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 48750,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      },
+      "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MzEwfn5YXjF_UDN_flNHflAzU0FWfjUyMTF_fjB_MzR_fiE0OjEwMjQ6MTIyNTQ6MTc3MDQ6MTE4NToyOTQ4MDo1ODg1MA--": {
+        "isGoverning": true,
+        "downgradeAvailable": false,
+        "fareAvailabilityKey": "Mn5Dfn5TR35DU0FWfjU1MTF_fjB_MzEwfn5YXjF_UDN_flNHflAzU0FWfjUyMTF_fjB_MzR_fiE0OjEwMjQ6MTIyNTQ6MTc3MDQ6MTE4NToyOTQ4MDo1ODg1MA--",
+        "fareCode": "CSAV",
+        "isSumOfSector": true,
+        "classOfService": "C",
+        "classType": null,
+        "fareApplicationType": 2,
+        "fareClassOfService": "C",
+        "fareSequence": 310,
+        "fareStatus": 0,
+        "inboundOutBound": 0,
+        "isAllotmentMarketFare": false,
+        "productClass": "RS",
+        "ruleNumber": "5511",
+        "ruleTariff": null,
+        "travelClassCode": null,
+        "passengerFares": [
+          {
+            "fareDiscountCode": null,
+            "passengerDiscountCode": null,
+            "passengerType": "ADT",
+            "fareAmount": 65013,
+            "revenueFare": 58850,
+            "publishedFare": 58850,
+            "loyaltyPoints": 0,
+            "discountedFare": 13800,
+            "serviceCharges": [
+              {
+                "amount": 102,
+                "code": "TRF",
+                "detail": "BLR-DEL",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "USD",
+                "foreignAmount": 1.1,
+                "ticketCode": "TRF"
+              },
+              {
+                "amount": 1225,
+                "code": "ASF",
+                "detail": "BLR-DEL",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "USD",
+                "foreignAmount": 13.8,
+                "ticketCode": "ASF"
+              },
+              {
+                "amount": 1770,
+                "code": "UDF",
+                "detail": "BLR-DEL",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1770,
+                "ticketCode": "UDF"
+              },
+              {
+                "amount": 118,
+                "code": "AAT",
+                "detail": "BLR-DEL",
+                "type": 4,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "AED",
+                "foreignAmount": 4.9,
+                "ticketCode": "AAT"
+              },
+              {
+                "amount": 2948,
+                "code": null,
+                "detail": "TaxSum",
+                "type": 5,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 2948,
+                "ticketCode": null
+              },
+              {
+                "amount": 58850,
+                "code": null,
+                "detail": null,
+                "type": 0,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 58850,
+                "ticketCode": null
+              }
+            ],
+            "multiplier": 1
+          }
+        ]
+      }
+    },
+    "currencyCode": "INR",
+    "includeTaxesAndFees": true,
+    "searchParams": {
+      "origin": {
+        "stationCode": "BLR",
+        "fullName": "Bengaluru",
+        "locationDetails": {
+          "countryCode": "IN"
+        },
+        "currency": "INR",
+        "originCurrency": "INR"
+      },
+      "destination": {
+        "stationCode": "DXB",
+        "fullName": "Dubai",
+        "locationDetails": {
+          "countryCode": "IN"
+        },
+        "currency": "AED"
+      },
+      "onWardDate": "2025-12-06T00:00:00.000Z",
+      "returnDate": "",
+      "pax": {
+        "adult": 1,
+        "child": 0,
+        "infant": 0,
+        "srCitizen": 0
+      },
+      "tripType": "1",
+      "redirectTo": "/",
+      "isChanged": false,
+      "onWardDateObject": "2025-12-06T00:00:00.000Z",
+      "returnDateObject": "",
+      "onWardDateFormattedString": "06 Dec 2025",
+      "returnDateFormattedString": "",
+      "onWardDateFormattedStringDDMM": "06 Dec",
+      "returnDateFormattedStringDDMM": "",
+      "returnDateFormattedStringDDMMYYYY": "",
+      "timeZoneCodes": {
+        "BLR": 330,
+        "DXB": 220
+      }
+    },
+    "stationsFullName": {
+      "BLR": "Bengaluru",
+      "BOM": "Mumbai",
+      "DEL": "Delhi",
+      "DXB": "Dubai"
+    },
+    "stationCodeTimeZoneOffsets": {
+      "BLR": 330,
+      "BOM": 330,
+      "DXB": 240,
+      "DEL": 330
+    },
+    "airportNames": {
+      "BLR": "Kempegowda International Airport",
+      "BOM": "Chhatrapati Shivaji Maharaj International Airport",
+      "DEL": "Indira Gandhi International Airport",
+      "DXB": "Dubai International Airport"
+    }
+  }
+}
