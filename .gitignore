@@ -1,0 +1,68 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# Ignore Next.js build output from all frontend apps
+**/.next/
+**/out/
+**/build/
+**/dist/
+**/node_modules/
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+# Frontend/JavaScript/TypeScript build artifacts
+/dist
+/build
+.tmp
+.temp
+
+# Next.js output
+/.next
+/out
+
+# Vite output
+/dist
+
+# Storybook build
+/storybook-static
+
+# Expo / React Native
+.expo
+
+# misc IDE & tool build output
+/.turbo
+
